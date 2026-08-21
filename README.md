@@ -33,7 +33,9 @@ shasum -a 256 -c PromptLight.zip.sha256
 
 Prompt Light has no account, analytics, advertising, or remote telemetry. It
 receives lifecycle signals from Codex through a local receiver bound to your
-Mac. Prompt text and responses are not required, collected, or stored.
+Mac. Prompt text and responses are not required, collected, or stored. The app
+uses GitHub over HTTPS to check for and download cryptographically signed
+software updates.
 
 The full privacy summary is available on the
 [Prompt Light website](https://prompt-light.vercel.app/#privacy).
