@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>PromptLight</title>
+        <item>
+            <title>1.1.3</title>
+            <pubDate>Mon, 17 Aug 2026 16:28:09 +0530</pubDate>
+            <link>https://prompt-light.vercel.app</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Prompt Light 1.1.3 adds secure automatic updates.
+
+## Added
+
+- Prompt Light now checks for updates automatically and can install them in place.
+- A **Check for Updates…** command is available from the menu bar.
+- General Settings shows the installed version and an update action.
+- Update archives and the update feed are cryptographically signed.
+
+## Upgrading from 1.1.1 or 1.1.2
+
+Those versions did not include an updater, so 1.1.3 requires one final manual
+download. Future releases can update automatically from 1.1.3 and later.
+
+## Requirements
+
+- macOS 14 Sonoma or later.
+- Apple silicon or Intel Mac.
+- Codex for automatic activity updates.
+
+The app is signed with a Developer ID certificate and notarized by Apple.
+]]></description>
+            <enclosure url="https://github.com/anujparekh18/prompt-light-releases/releases/download/v1.1.3/PromptLight-1.1.3.zip" length="4245146" type="application/octet-stream" sparkle:edSignature="dYVznfkY345OAcA69EXa8qOObCnhhPiQTiraViWF2unG9ylnStBxsnb6O16MZx4Fqo+h4rgIZabbLePcKJlhAw=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: 3qYV6lDuGsFFK/Ao1lZONdynsARHfDyJmiyrWNQKlXE9b7rxsZYt8nw5/iqhwnzdAylFlWsWV4IMMxdqGk4BCQ==
+length: 1919
+-->
